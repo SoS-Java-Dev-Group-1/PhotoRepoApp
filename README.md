@@ -1,10 +1,10 @@
 # PhotoRepoApp
-Contributors:
-Jacob Baker
-Alex Hong
-Ryan Cohen
-Connor Wang
-Arzhang Valadkhani
+Contributors:<br/>
+Jacob Baker<br/>
+Alex Hong<br/>
+Ryan Cohen<br/>
+Connor Wang<br/>
+Arzhang Valadkhani<br/>
 Adarsh Sriram
 
 An application that will allow users to upload their own photos, and share them in a paginated gallery. This application is focused on the backend to acquaint ourselves with the Spring framework. The frontend will be created with the React framework, and should be relatively simple (though, if time permits, feel free to add some nice designs/layouts).
