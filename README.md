@@ -39,7 +39,7 @@ An application that will allow users to upload their own photos, and share them 
 ## Useful Links and Resources
 
 General:<br/>
-[Creating a Simple CRUD App with React and Spring Boot](https://developer.okta.com/blog/2018/07/19/simple-crud-react-and-spring-boot)
+[Creating a Simple CRUD App with React and Spring Boot](https://developer.okta.com/blog/2018/07/19/simple-crud-react-and-spring-boot)<br/>
 
 Backend: <br/>
 [Amazon S3 Bucket: Java SDK](https://docs.aws.amazon.com/sdk-for-java/v1/developer-guide/welcome.html)
