@@ -13,7 +13,7 @@ An application that will allow users to upload their own photos, and share them 
 
 - [ ] User can upload a photo (no auth)
 - [ ] User can load a gallery of photos for viewing
-- [ ] Store the actual photos (.png, .jpg, etc.) in a Cloud-Based Storage (e.g. Cloudinary)
+- [ ] Store the actual photos (.png, .jpg, etc.) in a Cloud-Based Storage (e.g. Cloudinary, S3 Bucket)
 - [ ] Store the Urls of each photo on a local database
 
 ## Bonus Features
