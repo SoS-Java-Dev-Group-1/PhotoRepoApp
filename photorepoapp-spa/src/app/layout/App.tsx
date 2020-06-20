@@ -4,10 +4,11 @@ import HomePage from "../../features/home/HomePage";
 import NavBar from "../../features/nav/NavBar";
 import { RouteComponentProps, Route, withRouter } from "react-router-dom";
 import { Container } from "semantic-ui-react";
-import { GalleryMain } from "../../features/gallery/GalleryMain";
+import GalleryMain from "../../features/gallery/GalleryMain";
 import UploadMain from "../../features/upload/UploadMain";
 
-const App: React.FC<RouteComponentProps> = ({ location }) => {
+const App: React.FC<RouteComponentProps> = () => {
+
   return (
     <Fragment>
       <NavBar />
@@ -21,8 +22,8 @@ const App: React.FC<RouteComponentProps> = ({ location }) => {
           <Fragment>
             {/* We add a container here since the HTML for our fixed nav bar has an 'absolute' position, to work around this we just add a large margin
             to a container for any future components in our router components */}
-            <Container style={{ marginTop: "7em" }}>
-              <Route exact path="/gallery" component={GalleryMain} />
+            <Container style={{ marginTop: "5em" }}>
+              <Route exact path="/gallery" component={GalleryMain}/>
               <Route exact path="/upload" component={UploadMain} />
             </Container>
           </Fragment>
